@@ -24,5 +24,4 @@ public class Category {
     @JsonManagedReference
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
     private List<Food> foods;
-
 }
