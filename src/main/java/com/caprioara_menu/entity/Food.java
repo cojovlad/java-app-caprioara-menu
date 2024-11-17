@@ -22,11 +22,11 @@ public class Food {
     @Column(nullable = false)
     private double price;
 
-    @ElementCollection
-    private List<String> ingredients;
+    @Column
+    private String ingredients;
 
-    @ElementCollection
-    private List<String> nutritionalValues;
+    @Column
+    private String nutritionalValues;
 
     private String photo;
 
